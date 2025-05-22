@@ -23,7 +23,7 @@ const Navbar = ({links} : navBarProps) => {
   return (
     <>
         <nav className={`bg-screen-nav main-padding ${scrolling ? 'navBarScroll' : ''}`} data-aos="fade-down">
-            <img src="/asstes/icons/logoGroup.svg" alt="logo" />
+            <img src="/task-4-advanced/asstes/icons/logoGroup.svg" alt="logo" />
             <div className="navLinks">
                 {links.map((link,linkIndex)=>{
                     return(
@@ -36,14 +36,14 @@ const Navbar = ({links} : navBarProps) => {
         </nav>
         <nav className={`sm-screen-nav main-padding ${scrolling ? 'navBarScroll' : ''}`}>
 
-            <img src="/asstes/icons/logoGroup.svg" alt="logo" className='sm-screen-logo' />
-            <img src="/asstes/icons/bars.svg" onClick={() =>setShowMenu(!showMenu)} className='cursonIcon'/>
+            <img src="/task-4-advanced/asstes/icons/logoGroup.svg" alt="logo" className='sm-screen-logo' />
+            <img src="/task-4-advanced/asstes/icons/bars.svg" onClick={() =>setShowMenu(!showMenu)} className='cursonIcon'/>
 
             <div className={`sm-screen-nav-menu ${showMenu ? 'showMenu' : ''}`}>
                 <div className="sm-screen-nav-menu-top">
                     <div className="navLinks-sm-screen-header main-padding">
-                        <img src="/asstes/icons/logoGroup.svg" alt="logo" className='sm-screen-logo'/>
-                        <img src="/asstes/icons/closeIcon.svg" onClick={()=>setShowMenu(false)} className='cursonIcon'/>
+                        <img src="/task-4-advanced/asstes/icons/logoGroup.svg" alt="logo" className='sm-screen-logo'/>
+                        <img src="/task-4-advanced/asstes/icons/closeIcon.svg" onClick={()=>setShowMenu(false)} className='cursonIcon'/>
                     </div>
                     <div className="navLinks">
                         {links.map((link,linkIndex)=>{

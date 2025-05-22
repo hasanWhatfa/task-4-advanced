@@ -59,15 +59,15 @@ interface ContactLinks{
 
 export const contactLinks : ContactLinks[] = [
     {
-        img:'/asstes/icons/facebook-fill.svg',
+        img:'/task-4-advanced/asstes/icons/facebook-fill.svg',
         alt:'facebook logo'
     },
     {
-        img:'/asstes/icons/twitter-fill.svg',
+        img:'/task-4-advanced/asstes/icons/twitter-fill.svg',
         alt:'twitter logo'
     },
     {
-        img:'/asstes/icons/linkedin-fill.svg',
+        img:'/task-4-advanced/asstes/icons/linkedin-fill.svg',
         alt:'linkedin logo'
     }
 ]

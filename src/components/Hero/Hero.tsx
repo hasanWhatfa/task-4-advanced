@@ -8,7 +8,7 @@ interface HeroProps{
 const Hero = ({data} : HeroProps) => {
   return (
     <div className="hero main-padding" >
-      <img src="/asstes/imgaes/heroImage.png" className="heroImage" data-aos="zoom-in-left"/>
+      <img src="/task-4-advanced/asstes/imgaes/heroImage.png" className="heroImage"/>
       <div className="heroTextContent"  data-aos="zoom-in-up">
         <div className='herooootext'>
           <h2>

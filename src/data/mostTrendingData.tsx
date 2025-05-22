@@ -7,37 +7,37 @@ interface mostTrendingObject{
 
 export const mostTrendingData : mostTrendingObject[] =[
     {
-        img:'/asstes/imgaes/mostTrending01.png',
+        img:'/task-4-advanced/asstes/imgaes/mostTrending01.png',
         price:'$300000',
         appartment:'Luxury Apartment in California',
         location:'1901 Thornridge Cir. Shiloh, Hawaii 81063'
     },
     {
-        img:'/asstes/imgaes/mostTrending02.png',
+        img:'/task-4-advanced/asstes/imgaes/mostTrending02.png',
         price:'$300000',
         appartment:'Luxury Apartment in California',
         location:'1901 Thornridge Cir. Shiloh, Hawaii 81063'
     },
     {
-        img:'/asstes/imgaes/mostTrending03.png',
+        img:'/task-4-advanced/asstes/imgaes/mostTrending03.png',
         price:'$300000',
         appartment:'Luxury Apartment in California',
         location:'1901 Thornridge Cir. Shiloh, Hawaii 81063'
     },
     {
-        img:'/asstes/imgaes/mostTrending04.png',
+        img:'/task-4-advanced/asstes/imgaes/mostTrending04.png',
         price:'$300000',
         appartment:'Luxury Apartment in California',
         location:'1901 Thornridge Cir. Shiloh, Hawaii 81063'
     },
     {
-        img:'/asstes/imgaes/mostTrending05.png',
+        img:'/task-4-advanced/asstes/imgaes/mostTrending05.png',
         price:'$300000',
         appartment:'Luxury Apartment in California',
         location:'1901 Thornridge Cir. Shiloh, Hawaii 81063'
     },
     {
-        img:'/asstes/imgaes/mostTrending06.png',
+        img:'/task-4-advanced/asstes/imgaes/mostTrending06.png',
         price:'$300000',
         appartment:'Luxury Apartment in California',
         location:'1901 Thornridge Cir. Shiloh, Hawaii 81063'

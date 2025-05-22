@@ -6,32 +6,32 @@ interface FilterObject{
 export const bestDealsData : FilterObject[] =[
     {
         filter:'Residential Property',
-        imgsArr:['/asstes/imgaes/bestDeals01.jpg',
-            '/asstes/imgaes/bestDeals02.png',
-            '/asstes/imgaes/bestDeals03.png'
+        imgsArr:['/task-4-advanced/asstes/imgaes/bestDeals01.jpg',
+            '/task-4-advanced/asstes/imgaes/bestDeals02.png',
+            '/task-4-advanced/asstes/imgaes/bestDeals03.png'
         ]
     },
     {
         filter:'Commercial Property',
-        imgsArr:['/asstes/imgaes/bestDeals04.jpg',
-            '/asstes/imgaes/bestDeals05.jpg',
-            '/asstes/imgaes/bestDeals06.jfif',
-            '/asstes/imgaes/bestDeals03.png'
+        imgsArr:['/task-4-advanced/asstes/imgaes/bestDeals04.jpg',
+            '/task-4-advanced/asstes/imgaes/bestDeals05.jpg',
+            '/task-4-advanced/asstes/imgaes/bestDeals06.jfif',
+            '/task-4-advanced/asstes/imgaes/bestDeals03.png'
         ]
     },
     {
         filter:'Agriculture Property',
-        imgsArr:['/asstes/imgaes/bestDeals02.png',
-            '/asstes/imgaes/bestDeals01.jpg',
-            '/asstes/imgaes/bestDeals05.jpg'
+        imgsArr:['/task-4-advanced/asstes/imgaes/bestDeals02.png',
+            '/task-4-advanced/asstes/imgaes/bestDeals01.jpg',
+            '/task-4-advanced/asstes/imgaes/bestDeals05.jpg'
         ]
     },
     {
         filter:'Industrial Property',
-        imgsArr:['/asstes/imgaes/bestDeals06.jfif',
-            '/asstes/imgaes/bestDeals02.png',
-            '/asstes/imgaes/bestDeals02.png',
-            '/asstes/imgaes/bestDeals04.jpg',
-            '/asstes/imgaes/bestDeals05.jpg']
+        imgsArr:['/task-4-advanced/asstes/imgaes/bestDeals06.jfif',
+            '/task-4-advanced/asstes/imgaes/bestDeals02.png',
+            '/task-4-advanced/asstes/imgaes/bestDeals02.png',
+            '/task-4-advanced/asstes/imgaes/bestDeals04.jpg',
+            '/task-4-advanced/asstes/imgaes/bestDeals05.jpg']
     },
 ]

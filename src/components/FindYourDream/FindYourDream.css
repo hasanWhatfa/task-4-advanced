@@ -1,5 +1,5 @@
 .findYouDream {
-    background-image: url(/asstes/imgaes/findDreamHouseImage.png);
+    background-image: url(/task-4-advanced/asstes/imgaes/findDreamHouseImage.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
     text-align: center;
 }
 .small-screen-bg{
-    background-image: url(/asstes/imgaes/smallScreenFindYourDream.png);
+    background-image: url(/task-4-advanced/asstes/imgaes/smallScreenFindYourDream.png);
 }
 @media (max-width:1200px) {
     .findYouDream h2{

@@ -21,17 +21,17 @@ interface heroCards{
 
 const heroCardsData : heroCards[] =[
     {
-        img:'/asstes/icons/locationIcon.svg',
+        img:'/task-4-advanced/asstes/icons/locationIcon.svg',
         title:'Location',
         dcs:'Ahmedabad, India'
     },
     {
-        img:'/asstes/icons/dollarIcon.svg',
+        img:'/task-4-advanced/asstes/icons/dollarIcon.svg',
         title:'Price',
         dcs:'$1000 - $10,000'
     },
     {
-        img:'/asstes/icons/houseIcon.svg',
+        img:'/task-4-advanced/asstes/icons/houseIcon.svg',
         title:'Type of Property',
         dcs:'Apartment'
     }

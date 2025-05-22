@@ -6,7 +6,7 @@ const Foorter = () => {
     <footer className='main-padding'>
       <div className="footerTopContent">
         <div className="footerLogo" data-aos="fade-up">
-          <img src="/asstes/icons/logoGroup.svg" alt="logo"/>
+          <img src="/task-4-advanced/asstes/icons/logoGroup.svg" alt="logo"/>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus
             felis vitae sit est quisque.
