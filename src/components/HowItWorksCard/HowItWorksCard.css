@@ -1,0 +1,67 @@
+.howItWorksCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    padding: 45px 50px 90px;
+    background-color: var(--white);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+.howItWorksCard.activeCard{
+    background-color: var(--main-color);
+}
+.howItWorksCard > div{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.howItWorksCard > div h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-break: 100%;
+    color: var(--dark-text);
+}
+.howItWorksCard.activeCard h3{
+    color: var(--white);
+}
+.howItWorksCard > div p{
+    color: #22222280;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.howItWorksCard.activeCard p{
+    color: var(--white);
+}
+
+@media (max-width:1440px){
+    .howItWorksCard{
+    gap: 20px;
+    padding: 30px 40px 80px;
+}
+.howItWorksCard > div{
+    gap: 10px;
+}
+.howItWorksCard > div h3{
+    font-size: 22px;
+}
+.howItWorksCard > div p{
+    font-size: 14px;
+}
+}
+
+
+
+
+@media (max-width:992px){
+    .howItWorksCard{
+    padding: 15px 18px 34px;
+    border-radius: 10px;
+    min-height: 218px;
+}
+}

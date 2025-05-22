@@ -1,0 +1,98 @@
+.mostTrendingCard{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 0px 0px 12px 0px #0000001A;
+    border-radius: 12px;
+    background-color: #FFFFFF26;
+    width:31.159%;
+    transition: var(--main-trans);
+}
+.mostTrendingCard:hover{
+    box-shadow: 0px 0px 12px 10px #0000001A;
+    transform: scale(1.01);
+}
+.mostTrendingCard > img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.mostTrendingCard h2{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+.mostTrendingCard .appartmentInfo{
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 600;
+    color: var(--dark-text);
+    max-width: 70%;
+    margin-bottom: 38px;
+}
+.mostTrendingCard .appartmentLocation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--dark-text);
+    img{
+        transform: scale(1.2);
+    }
+}
+@media (max-width:1440px) {
+    .mostTrendingCard{
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #0000001A;
+    border-radius: 10px;
+    width:31.159%;
+}
+.mostTrendingCard > img{
+    margin-bottom: 16px;
+}
+.mostTrendingCard h2{
+    font-size: 18px;
+}
+.mostTrendingCard .appartmentInfo{
+    font-size: 18px;
+    max-width: 70%;
+}
+.mostTrendingCard .appartmentLocation{
+    gap: 11px;
+    font-size: 14px;
+    img{
+        transform: none;
+    }
+}
+}
+
+
+@media (max-width:992px) {
+    .mostTrendingCard{
+    padding: 16px;
+    border-radius: 6px;
+    width:100%;
+}
+.mostTrendingCard > img{
+    margin-bottom: 14px;
+}
+.mostTrendingCard .appartmentInfo{
+    font-size: 16px;
+    line-height: 27px;
+    max-width: 100%;
+    margin-bottom: 72px;
+}
+.mostTrendingCard .appartmentLocation{
+    gap: 15.5x;
+    font-size: 12px;
+    img{
+        width: 18px;
+        height: 18px;
+    }
+}
+}

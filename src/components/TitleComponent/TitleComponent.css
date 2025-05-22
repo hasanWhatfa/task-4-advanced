@@ -1,0 +1,46 @@
+.titleCompo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding-bottom: 70px;
+}
+.titleCompo h2{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 100%;
+    color: var(--dark-text);
+}
+.titleCompo p{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #22222280;
+}
+
+@media (max-width:1440px){
+    .titleCompo{
+    gap: 5px;
+    padding-bottom: 56px;
+}
+.titleCompo h2{
+    font-size: 39px;
+}
+.titleCompo p{
+    font-size: 15px;
+}
+
+}
+@media(max-width:992px){
+    .titleCompo{
+    gap: 6px;
+    padding-bottom: 42px;
+}
+.titleCompo h2{
+    font-size: 30px;
+}
+.titleCompo p{
+    font-size: 15px;
+    line-height: 22px;
+}
+}

@@ -1,0 +1,62 @@
+.heroCard{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.heroCard .heroCardTextContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+.heroCard .heroCardTextContent h4{
+    letter-spacing: -0.22px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color:var(--dark-text);
+}
+.heroCard .heroCardTextContent p{
+    letter-spacing: -0.22px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #22222280
+}
+.heroCardIconContainer{
+    padding: 20px;
+    background-color:rgb(2, 85, 149 , 0.1);
+    border-radius: 50%;
+    max-height: 80px;
+}
+@media (max-width:1440px){
+.heroCard{
+    gap: 20px;
+}
+.heroCard .heroCardTextContent{
+    gap: 10px;
+}
+.heroCardIconContainer{
+    padding: 15px;
+    max-height: 60px;
+}
+.heroCard .heroCardTextContent h4{
+    font-size: 16px;
+}
+.heroCard .heroCardTextContent p{
+    font-size: 16px;
+}
+}
+
+@media (max-width:992px){
+    .heroCard{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+}
+.heroCard .heroCardTextContent{
+    gap: 6px;
+}
+}
